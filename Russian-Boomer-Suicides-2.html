@@ -68,7 +68,7 @@
             "translate(" + margin.left + "," + margin.top + ")");
   
     //Read the data
-    d3.csv("http://0.0.0.0:8000/Suicides.csv",
+    d3.csv("https://seanch3.github.io/Suicides.csv",
       // When reading the csv, I must format variables:
       function(d){
         return { Year : d3.timeParse("%Y")(d.Year), GdpPerCapita : d.GdpPerCapita, SuicideNo : d.SuicideNo, Suicides100K : d.Suicides100K, GdpForYear : d.GdpForYear }
@@ -425,7 +425,7 @@
 <td style="width: 25%; height: 21px;">
 <p><span style="font-size: 14px;">The trend of&nbsp;</span>increasing<span style="font-size: 14px;">&nbsp;GPD per capita is almost the exact opposite of&nbsp;</span>the<span style="font-size: 14px;">&nbsp;</span>crease<span style="font-size: 14px;">&nbsp;in suicide rates when comparing the charts. &nbsp;</span></p>
 <p><span style="font-size: 14px;">Is it&nbsp;</span>possible the increased fortunes of the general populace led to less dispare among this generation?&nbsp;</p>
-<p style="text-align: center;"><span style="color: #99cc00;"><a href="http://0.0.0.0:8000/Russian-Boomer-Suicides-3.html" title="Next Slide" style="color: #e8336d;"><strong>Next Slide--&gt;</strong></a></span></p>
+<p style="text-align: center;"><span style="color: #99cc00;"><a href="https://seanch3.github.io/Russian-Boomer-Suicides-3.html" title="Next Slide" style="color: #e8336d;"><strong>Next Slide--&gt;</strong></a></span></p>
 </td>
 </tr>
 </tbody>
